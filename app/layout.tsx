@@ -22,7 +22,6 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <ClerkProvider>
       <html lang="en" suppressHydrationWarning>
         <body className={cn(
           font.className,
@@ -43,6 +42,5 @@ export default function RootLayout({
           </ThemeProvider>
         </body>
       </html>
-    </ClerkProvider>
   )
 }
